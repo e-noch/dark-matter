@@ -28,7 +28,6 @@ html {
     
     
     h1, h2 {
-      width: 100%;
       float: left;
     }
     h1 {
@@ -64,30 +63,6 @@ html {
       font-family: 'Pacifico', cursive;
       font-size: 30px;
       margin-top: 15px;
-    }
-    code {
-      margin: 20px 1%;
-      float: left;
-      width: 48%;
-      height: 105px;
-      background: rgba(0,0,0,0.1);
-      border: rgba(0,0,0,0.05) 5px solid;
-      border-radius: 5px;
-      padding:5px;
-      color: white;
-      text-align: center;
-      font-size: 15px;
-      margin-top: 25px;
-      display: block;
-      box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-    }
-    code.html {
-      color: #7EC9E6;
-    }
-    code.js {
-      color: #FFAD00;
     }
 
     .main {
@@ -159,16 +134,13 @@ html {
     .clear {
       width: auto;
     }
-    .btn:hover, .btn:hover {
-      background: #444;
-    }
+
     .btns {
       width: 410px;
       margin: 50px auto;
     }
     .credit {
       text-align: center;
-      color: rgba(0,0,0,0.5);
       padding: 10px;
       width: 410px;
       clear: both;
@@ -228,19 +200,14 @@ html {
     
     .main section.page1 {
       background:rgb(230, 217, 200);
-		background-image:url('https://drive.google.com/file/d/1KwYscwNbxC2bv9ShJlSAtr_tTCUJA7oK/view?usp=sharing')
     }
     .main section.page1 h1 {
       text-align: left;
       padding: 0;
       margin-bottom: 15px;
       font-size: 70px;
-      color: black;
     }
     .main section.page1 h2 {
-      color: rgba(0,0,0,0.85);
-      text-align: center;
-      width: 435px;
       line-height: 160%;
     }
     .main section .page_container .btns {
@@ -253,7 +220,7 @@ html {
       text-align: center;
     }
     .main section.page2 {
-      background: #555557 url(back-phone.png) no-repeat center -150px ;
+      background: #fff url(back-phone.png) no-repeat center -150px ;
     }
     .main section.page2 > img {
       position: absolute;
@@ -261,7 +228,7 @@ html {
       left: 50%;
       margin-left: -1095px;
     }
-    .main section.page2 .page_container {
+    .page_container {
       margin-top: 240px;
       overflow: hidden;
     }
@@ -293,6 +260,7 @@ html {
     }
     .main section.page3 h1 {
       text-align: left;
+		font-weight: 700;
       padding: 0;
       margin-bottom: 0;
       font-size: 70px;
